@@ -4,7 +4,7 @@ import ReactTooltip from 'react-tooltip'
 export default function Brewery( {brewery} ) {
   return (
     <section>
-        <p data-tip data-for="breweryTooltip">{brewery.name}</p>
+        <h4 data-tip data-for="breweryTooltip">Brewery: {brewery.name}</h4>
         <ReactTooltip delayUpdate={1000} clickable={true} id="breweryTooltip" place="top" effect="solid">
             <p>Brewery Type: {brewery.brewery_type}</p>
             <p>City: {brewery.county_province}</p>
