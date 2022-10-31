@@ -15,7 +15,7 @@ export default function BeerApp() {
 
     // Called everytime brewery data changes.
     useEffect(() => {
-        const URL = "https://api.openbrewerydb.org/breweries/" + brewery.brewery;
+        const URL = "https://api.openbrewerydb.org/breweries/" + brewery.breweryID;
         axios.get(URL)
         .then((response) => {
             setBrewery(response.data)
@@ -35,7 +35,7 @@ export default function BeerApp() {
         <>
             <header>
                 <h1>The Random Beer App</h1>
-                <button>Show Another Beer</button>
+                <button onClick={randomBeer}>Show Another Beer</button>
             </header>
             <Beer beer={beer}/>
             <Brewery brewery={brewery}/>
