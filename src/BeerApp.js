@@ -15,6 +15,7 @@ export default function BeerApp() {
 
     // Called everytime brewery data changes.
     useEffect(() => {
+        if (!brewery.breweryID) return
         const URL = "https://api.openbrewerydb.org/breweries/" + brewery.breweryID;
         axios.get(URL)
         .then((response) => {
