@@ -1,14 +1,14 @@
 import React from 'react'
 
-export default function Beer() {
+export default function Beer( {beer} ) {
   return (
     <section>
-        <dev class="beerimage">
-            <img src="" alt="beer"/>
-        </dev>
+        <div class="beerimage">
+            <img src={beer.image} alt="pint of beer"/>
+        </div>
         <article>
-            <h3></h3>
-            <p></p>
+            <h3>{beer.name}</h3>
+            <p>{beer.description}</p>
         </article>
     </section>
   )
