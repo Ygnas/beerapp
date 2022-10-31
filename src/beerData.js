@@ -17,7 +17,7 @@ export const beerData = [
                 image: "https://www.murphys.com/wp-content/themes/murphys/assets/holding/pint-of-murphys-optimised.png",
             }
         ],
-        breweryID: "murphys-breweryID-heineken-cork"
+        breweryID: "murphys-brewery-heineken-cork"
     },
     {
         beers: [
@@ -42,7 +42,7 @@ export const beerData = [
                 image: "https://www.franciscanwellbrewery.com/sites/franciscanwell/files/2021-07/Shandon%20Stout.png"
             }
         ],
-        breweryID: "the-franciscan-well-breweryID-cork"
+        breweryID: "the-franciscan-well-brewery-cork"
     },
     {
         beers: [
@@ -77,7 +77,7 @@ export const beerData = [
                 image: "https://www.9whitedeer.ie/wp-content/uploads/2020/03/9-white-deer-product-img-13.jpg"
             }
         ],
-        breweryID: "9-white-deer-breweryID-macroom"
+        breweryID: "9-white-deer-brewery-macroom"
     },
     {
         beers: [
@@ -112,7 +112,7 @@ export const beerData = [
                 image: "https://www.blacksbrewery.com/wp-content/uploads/2020/08/marching-powder.png"
             }
         ],
-        breweryID: "blacks-breweryID-kinsale"
+        breweryID: "blacks-brewery-kinsale"
     },
     {
         beers: [
@@ -163,6 +163,5 @@ export const beerData = [
             }
         ],
         breweryID: "eight-degrees-brewing-mitchelstown"
-    },
-
+    }
 ]
