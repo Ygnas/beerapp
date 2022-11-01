@@ -6,10 +6,12 @@ export default function Beer( {beer} ) {
         <div className="beerimage">
             <img src={beer.image} alt="pint of beer"/>
         </div>
-        <article>
-            <h3>{beer.name}</h3>
-            <p>{beer.description}</p>
-        </article>
+        <div className="description">
+            <article>
+                <h3>{beer.name}</h3>
+                <p>{beer.description}</p>
+            </article>
+        </div>
     </section>
   )
 }
